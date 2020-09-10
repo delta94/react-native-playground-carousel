@@ -8,6 +8,7 @@ target 'playgroundCarousel' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'playgroundCarouselTests' do
     inherit! :complete
     # Pods for testing
