@@ -9,11 +9,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: '900',
-    fontSize: 30,
+    fontSize: 32,
     textTransform: 'uppercase',
+    letterSpacing: -1,
   },
   itemContainer: {
-    marginBottom: 10,
+    height: OVERFLOW_TITLE_HEIGHT,
+    padding: 10,
   },
   locationText: {
     marginLeft: 10,
