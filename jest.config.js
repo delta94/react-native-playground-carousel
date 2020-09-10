@@ -15,8 +15,8 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   testRegex: '(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$',
   transformIgnorePatterns: ['node_modules/(?!react-native|react-navigation|native-base|@react-native-community)'],
-  setupFiles: ['<rootDir>/src/setupJestMocks.js', './node_modules/react-native-gesture-handler/jestSetup.js'],
-  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  // setupFiles: ['<rootDir>/src/setupJestMocks.js', './node_modules/react-native-gesture-handler/jestSetup.js'],
+  // setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
   collectCoverageFrom: ['src/**/*.{ts,tsx,js}'],
   coverageReporters: ['json', 'lcov', 'clover', 'text'],
 };
